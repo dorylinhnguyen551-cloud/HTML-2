@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Design - Slideshow</title>
+</head>
+<body>
+    <div id="petal-container"></div>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="photography.html">Photography</a>
+        <a href="design.html">Design</a>
+        <a href="game.html">Game</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <h1>Design Portfolio</h1>
+        <div class="slider-container">
+            <button class="arrow arrow-left" onclick="changeSlide(-1, 'design-item')">&#10094;</button>
+            <img class="slider-img active design-item" src="design1.png">
+            <img class="slider-img design-item" src="design2.png">
+            <img class="slider-img design-item" src="design3.png">
+            <img class="slider-img design-item" src="design4.png">
+            <img class="slider-img design-item" src="design5.png">
+            <img class="slider-img design-item" src="design6.png">
+            <img class="slider-img design-item" src="design7.png">
+            <img class="slider-img design-item" src="design8.png">
+            <img class="slider-img design-item" src="design9.png">
+            <img class="slider-img design-item" src="design10.png">
+            <button class="arrow arrow-right" onclick="changeSlide(1, 'design-item')">&#10095;</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
